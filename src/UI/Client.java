@@ -74,6 +74,7 @@ public class Client {
         frame.setBounds(600, 200, 450, 250);
         frame.setVisible(true);
 
+        //º‡Ã˝∆˜
         toReg.addActionListener((event)->{
                 main.remove(p4);
                 main.remove(forget);
@@ -97,7 +98,7 @@ public class Client {
         log.addActionListener((event)->{
                 String ac=account.getText();
                 String ps=new String(password.getPassword());
-                if (ac==null||ps==null||ac.equals("")||ps.equals("")){
+                if (ac.equals("")||ps.equals("")){
                     JOptionPane.showMessageDialog(frame, "«Î ‰»Î’À∫≈º∞√‹¬Î","¥ÌŒÛ", JOptionPane.ERROR_MESSAGE);
                 }else {
                     tryLogin(ac,ps);
@@ -108,7 +109,7 @@ public class Client {
                 String ac=account.getText();
                 String ps=new String(password.getPassword());
                 String ep=new String(ensure_pswd.getPassword());
-                if (ac==null||ps==null||ac.equals("")||ps.equals("")){
+                if (ac.equals("")||ps.equals("")){
                     JOptionPane.showMessageDialog(frame, "«Î ‰»Î’À∫≈º∞√‹¬Î","¥ÌŒÛ", JOptionPane.ERROR_MESSAGE);
                 }else if(!ps.equals(ep)){
                     JOptionPane.showMessageDialog(frame, "¡Ω¥Œ√‹¬Î ‰»Î≤ª“ª÷¬","¥ÌŒÛ", JOptionPane.ERROR_MESSAGE);
