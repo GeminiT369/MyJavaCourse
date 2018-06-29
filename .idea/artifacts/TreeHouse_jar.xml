@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TreeHouse:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TreeHouse_jar</output-path>
+    <root id="archive" name="TreeHouse.jar">
+      <element id="module-output" name="TreeHouse" />
+    </root>
+  </artifact>
+</component>
